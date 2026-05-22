@@ -63,27 +63,27 @@ Run via the "Run Camera Scanner V3" workflow which executes python W8CameraHackV
 ## Key Features
 
 ### 🌍 Country Support
-# **243 Country Support across 5 RIR regions (APNIC, RIPE, ARIN, LACNIC, AFRINIC)**
-# **Expanded Device Detection: Hikvision, Dahua/Anjhua, NVR, DVR, ONVIF, Axis, Foscam, Reolink, Amcrest, Uniview, Tiandy, XMeye, Router (MikroTik/TP-Link/RouterOS)**
-# **Device Model Extraction: Parses HTTP Server header for device model info**
-# **Telegram Integration: Scan start/stop notifications, result file sending after every operation, valid password alerts, emergency backup on crash; multi-bot/channel config supported**
-# **Resume Scan: Saves progress to scan_progress.json; prompts to continue or start fresh**
-# **RTSP Path Tester (Option 13): Manual single probe, batch from ValidCamera files, live progress bar, save/resume, Quick Re-Test (re-ping + dead removal), M3U export, Telegram auto-send**
-# **Preferred Admin Injector: Plants a configured admin account on confirmed devices via ISAPI / Dahua CGI / generic CGI; saves to PreferredAdmin_Accounts.txt**
-# **Memory Pressure Monitor: Auto-pauses scan when RAM ≥ 85 %, resumes below 70 %**
-# **Duplicate Removal: Automatically removes duplicate IP entries from result files after scan**
-# **IP Geolocation: Shows city, region, country, postal code, ISP**
-# **Auto IP Range Fetch: Downloads latest allocations from any of the 5 RIR registries**
-# **Multi-Threaded Scanning: Up to 300 concurrent threads (matching original proven engine)**
-#  **Advanced Login Validator: Brute-force with Digest/Basic authentication (Hikvision & Dahua); credential list from credentials.txt**
-# **Emergency Backup: Saves progress on crash/exit via Telegram and scan_progress.json**
-# **Console Overlap Fix: Uses ANSI escape codes for clean progress output**
-# **Main Menu Loop: Returns to menu after each operation instead of exiting**
-# **4G/5G Mobile Camera Finder: Built-in carrier CIDR ranges for 20+ countries**
-# **ISP Diversity Reporter: Tracks ISP sightings across scan sessions**
-# **Auto Dashboard: Live scan stats dashboard with CVE/config/RTSP counts**
-# **CVE Checker: Checks detected devices against known vulnerability patterns**
-# **Heatmap / QR / CSV export: Extra tools in Option 12 submenu**
+! **243 Country Support across 5 RIR regions (APNIC, RIPE, ARIN, LACNIC, AFRINIC)**
+! **Expanded Device Detection: Hikvision, Dahua/Anjhua, NVR, DVR, ONVIF, Axis, Foscam, Reolink, Amcrest, Uniview, Tiandy, XMeye, Router (MikroTik/TP-Link/RouterOS)**
+! **Device Model Extraction: Parses HTTP Server header for device model info**
+! **Telegram Integration: Scan start/stop notifications, result file sending after every operation, valid password alerts, emergency backup on crash; multi-bot/channel config supported**
+! **Resume Scan: Saves progress to scan_progress.json; prompts to continue or start fresh**
+! **RTSP Path Tester (Option 13): Manual single probe, batch from ValidCamera files, live progress bar, save/resume, Quick Re-Test (re-ping + dead removal), M3U export, Telegram auto-send**
+! **Preferred Admin Injector: Plants a configured admin account on confirmed devices via ISAPI / Dahua CGI / generic CGI; saves to PreferredAdmin_Accounts.txt**
+! **Memory Pressure Monitor: Auto-pauses scan when RAM ≥ 85 %, resumes below 70 %**
+! **Duplicate Removal: Automatically removes duplicate IP entries from result files after scan**
+! **IP Geolocation: Shows city, region, country, postal code, ISP**
+! **Auto IP Range Fetch: Downloads latest allocations from any of the 5 RIR registries**
+! **Multi-Threaded Scanning: Up to 300 concurrent threads (matching original proven engine)**
+!  **Advanced Login Validator: Brute-force with Digest/Basic authentication (Hikvision & Dahua); credential list from credentials.txt**
+! **Emergency Backup: Saves progress on crash/exit via Telegram and scan_progress.json**
+! **Console Overlap Fix: Uses ANSI escape codes for clean progress output**
+! **Main Menu Loop: Returns to menu after each operation instead of exiting**
+! **4G/5G Mobile Camera Finder: Built-in carrier CIDR ranges for 20+ countries**
+! **ISP Diversity Reporter: Tracks ISP sightings across scan sessions**
+! **Auto Dashboard: Live scan stats dashboard with CVE/config/RTSP counts**
+! **CVE Checker: Checks detected devices against known vulnerability patterns**
+! **Heatmap / QR / CSV export: Extra tools in Option 12 submenu**
 - 🌐 **Auto-Fetch IP Ranges** - **Automatically downloads from 5 RIR regions (APNIC, RIPE, ARIN, LACNIC, AFRINIC) database if file missing**
 
 **RIR Registry URLs**
