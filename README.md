@@ -40,17 +40,17 @@ Run via the "Run Camera Scanner V3" workflow which executes python W8CameraHackV
 10. **Help & Feature Reference**
 11. **NVR Channel Splitter — split multi-channel NVR streams**
 12. **Extra Tools — RTSP Brute Force, Heatmap, QR Code, CVE checker, Diff, CSV export…**
-13. **RTSP Path Tester & File Viewer — 5-item submenu (see below)**
-- **Option 13 — RTSP Path Tester & File Viewer**
+13. **RTSP Path Tester & File Viewer — 5-item submenu (see below):**
+# **Option 13 — RTSP Path Tester & File Viewer**
 **Submenu with five modes, all with Telegram integration and result-file send:**
 
-#	Mode	Description
+-	Mode	Description:
 1. **Single	Test one camera manually; auto-probes all brand paths; Basic + Digest auth**
 2. **Batch	Read cameras from ValidCamera file(s); comma/dash file selection; live progress bar; resume/save support**
 3. **View	Inspect RTSP result files — live/dead counts + URL table**
 4. **M3U	Build a VLC-ready .m3u playlist from RTSP_Tested.txt**
 5. **Quick Re-Test	Re-ping every URL in RTSP_Tested.txt; mark dead entries, remove them, write RTSP_Dead.txt; sends updated files to Telegram**
-**After every operation the result file (RTSP_Tested.txt / RTSP_Tested.m3u / RTSP_Dead.txt) is sent automatically to Telegram.**
+- **After every operation the result file (RTSP_Tested.txt / RTSP_Tested.m3u / RTSP_Dead.txt) is sent automatically to Telegram.**
 
 
 ### 🔐 Login Validation Features
