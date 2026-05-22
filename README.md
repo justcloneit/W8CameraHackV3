@@ -103,15 +103,16 @@ Run via the "Run Camera Scanner V3" workflow which executes python W8CameraHackV
 
 - **CVE Checker: Checks detected devices against known vulnerability patterns**
 
-**Heatmap / QR / CSV export: Extra tools in Option 12 submenu**
+- **Heatmap / QR / CSV export: Extra tools in Option 12 submenu**
+
 - 🌐 **Auto-Fetch IP Ranges** - **Automatically downloads from 5 RIR regions (APNIC, RIPE, ARIN, LACNIC, AFRINIC) database if file missing**
 
-**RIR Registry URLs**
-**APNIC (Asia-Pacific)**: ftp.apnic.net
-**RIPE NCC (Europe/Middle East/Central Asia)**: ftp.ripe.net
-**ARIN (North America/Caribbean)**: ftp.arin.net
-**LACNIC (Latin America/Caribbean)**: ftp.lacnic.net
-**AFRINIC (Africa)**: ftp.afrinic.net
+**RIR Registry URLs:**
+- **APNIC (Asia-Pacific)**: ftp.apnic.net
+- **RIPE NCC (Europe/Middle East/Central Asia)**: ftp.ripe.net
+- **ARIN (North America/Caribbean)**: ftp.arin.net
+- **LACNIC (Latin America/Caribbean)**: ftp.lacnic.net
+- **AFRINIC (Africa)**: ftp.afrinic.net
 
 
 **Telegram Config Format**
